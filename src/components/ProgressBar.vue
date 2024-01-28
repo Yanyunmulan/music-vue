@@ -48,7 +48,7 @@ export default {
         this.position = this.position + 0.015
       }
       this.duration = this.duration
-      this.name = '随风'
+      this.name = '随风1'
     }
     draw()    
   }
