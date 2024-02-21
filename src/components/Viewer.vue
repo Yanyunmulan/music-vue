@@ -7,7 +7,7 @@
 			<!-- <video src='../assets/t1.mp4'></video> -->
 
 			<video autoplay loop muted playsinline class="video-background">
-				<source src="../assets/t2.mp4" type="video/mp4">
+				<source src="../assets/final.mp4" type="video/mp4">
 				Your browser does not support the video element.
 			</video>
 		
