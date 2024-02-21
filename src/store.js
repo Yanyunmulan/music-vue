@@ -4,10 +4,10 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const COVER_URL = [
-  require('./assets/cover.jpg'),
-  require('./assets/cover2.jpg'),
-  require('./assets/cover3.jpg'),
-  require('./assets/offline-863552267.jpg')
+  // require('./assets/cover.jpg'),
+  // require('./assets/cover2.jpg'),
+  // require('./assets/cover3.jpg'),
+  // require('./assets/offline-863552267.jpg')
     // require('@/assets/cover.jpg'),
     // require('@/assets/cover2.jpg'),
     // require('@/assets/cover3.jpg'),
