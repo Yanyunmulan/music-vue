@@ -6,7 +6,7 @@
 			<!-- <img v-if="isPlaying" src="../assets/cover.jpg" /> -->
 			<!-- <video src='../assets/t1.mp4'></video> -->
 
-			<video autoplay loop muted playsinline class="video-background">
+			<video loop muted playsinline class="video-background">
 				<source src="../assets/final.mp4" type="video/mp4">
 				Your browser does not support the video element.
 			</video>
@@ -20,6 +20,19 @@ export default {
   computed: {
     ...mapState(['isPlaying'])
   },
+  watch: {
+    isPlaying() {
+	const video = document.querySelector('video')
+	if(this.isPlaying) {
+		video.play()
+		console.log(1)
+	} else {
+		video.pause()
+		console.log(2)
+	}
+	
+    }
+  }
 
 
 
