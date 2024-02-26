@@ -6,7 +6,7 @@
 			<!-- <img v-if="isPlaying" src="../assets/cover.jpg" /> -->
 			<!-- <video src='../assets/t1.mp4'></video> -->
 
-			<video loop muted playsinline class="video-background">
+			<video autoplay loop muted playsinline class="video-background">
 				<source src="../assets/final.mp4" type="video/mp4">
 				Your browser does not support the video element.
 			</video>
