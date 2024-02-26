@@ -48,4 +48,46 @@ body {
   overflow: hidden;
 }
 
+
+
+
+  @keyframes blurAnimation {
+        0% {
+            filter: blur(20px); 
+        }
+        90% {
+            filter: blur(2px); 
+        }
+        100% {
+            filter: blur(0px); 
+        }
+    }
+
+    body {
+        animation-name: blurAnimation; 
+        animation-duration: 5s; 
+        animation-fill-mode: forwards;
+        position: relative; 
+    }
+
+
+    .loading-overlay {
+        position: absolute; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999; 
+        display: none; 
+    }
+
+    .loading-overlay p {
+        font-size: 24px;
+        color: #333;
+    }
+
 </style>
